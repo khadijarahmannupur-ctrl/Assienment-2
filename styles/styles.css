@@ -31,6 +31,12 @@
     color: #ffffffa2;
     line-height: 20px;
 }
+.section-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
 /* #body-color{
     border-color: #1A0B2E;
 } */
@@ -142,4 +148,93 @@ nav{
     padding: 8px 16px;
     box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
     margin-top: -500px;
+}
+
+/* about section styles */
+main{
+    background-color: #1A0B2E;
+}
+.about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about-content{
+    text-align: center;
+    border-bottom: 1px solid #412567;
+}
+.about-content h2{
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+.about-content p{
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+.about-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 90px;
+    justify-items: center;
+    margin-top: 80px;
+}
+.info-card{
+    text-align: center;
+    padding-bottom: 120px;
+}
+.info-card h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+
+/* footer section styles */
+footer{
+    /* max-height: 412px; */
+   background: url("../assets/footer-bg.png"), #412567;
+   background-position: center;
+}
+#footer{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+#footer h1{
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+    margin-bottom: 22px;
+}
+footer #h-gradient{
+    font-size: 5rem;
+    font-weight: 900;
+    background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.icon{
+    max-width: 580px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 60px;
+    justify-items: center;
+    align-items: center;
+}
+.icon-container{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+#apple-podcast{
+    grid-column: span 2;
+}
+/* .icon-container img{
+    max-width: 24px;
+} */
+.copy-right{
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 120px;
 }
