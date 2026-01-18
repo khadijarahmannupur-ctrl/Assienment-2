@@ -25,6 +25,12 @@
     background: linear-gradient(50deg, #F7E93F, #FB09B4, #9100F8);
     
 }
+.paragrapg{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffffa2;
+    line-height: 20px;
+}
 /* #body-color{
     border-color: #1A0B2E;
 } */
@@ -33,10 +39,11 @@
 header{
     /* max-width: 1600px; */
     margin: 0 auto;
-    /* background-color: #412567; */
+    background-color: #1A0B2E;
 }
 nav{
-    background-color: #412567;
+    /* background-color: rgba(65, 37, 103, 1); */
+    border-bottom: 1px solid #412567;
 }
 .nav-container{
     max-width: 1200px;
@@ -72,4 +79,67 @@ nav{
     font-weight: 500;
     color: white;
     margin-left: 40px;
+}
+
+/* banner section styles */
+#banner{
+    /* background-color: #412567; */
+    background: url("../assets/hero-circle.png"), url("../assets/hero-bg.png");
+    background-position: center 100px, center;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    max-width: 550px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.banner-image{
+    /* max-width: 350px;
+    max-height: 350px; */
+    background-image: ;
+}
+.banner-image img{
+    /* border: 1px solid #412567;
+    background-color: #412567; */
+    max-width: 200px;
+    margin-top: 170px;
+}
+.banner-content{
+    max-width: 550px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.banner-content h2{
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: white;
+    margin-top: 120px;
+    margin-bottom: 8px;
+
+}
+.banner-content p{
+    margin-bottom: 24px;
+}
+.btn-banner{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(0, 255, 136, 1);
+    border: 2px solid rgba(0, 255, 136, 1);
+    border-radius: 1000px;
+    background-color: transparent;
+    padding: 12px 20px;
+    margin-left: 10px;
+}
+.badge{
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: #1A0B2E;
+    border-radius: 1000px;
+    border: none;
+    background-color: #00FF88;
+    padding: 8px 16px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    margin-top: -500px;
 }
