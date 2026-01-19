@@ -340,10 +340,9 @@ main{
 /* footer section styles */
 footer{
     /* max-height: 412px; */
-   background: url("../assets/footer-bg.png"), #412567;
-   background-size: cover;
+   background: url("../assets/footer-bg.png"),#1A0B2E;
    background-repeat: no-repeat;
-   background-position: center;
+   background-position: center bottom;
 }
 #footer{
     max-width: 1360px;
@@ -372,11 +371,13 @@ footer #h-gradient{
     gap: 60px;
     justify-items: center;
     align-items: center;
+    /* padding-top: 20px; */
 }
 .icon-container{
     display: flex;
     gap: 8px;
     margin-bottom: 32px;
+    margin-top: 20px;
 }
 #apple-podcast{
     grid-column: span 2;
@@ -386,8 +387,8 @@ footer #h-gradient{
 } */
 .copy-right{
     text-align: center;
-    margin-top: 10px;
-    padding-bottom: 120px;
+    margin-top: 30px;
+    padding-bottom: 100px;
 }
 
 
@@ -407,6 +408,28 @@ footer #h-gradient{
     margin-right: 20px;
     display: inline;
 }
+/* banner section responsive */
+
+#banner{
+    /* background-color: #412567; */
+    background: url("../assets/hero-circle.png"), url("../assets/hero-bg.png");
+    background-size: 200px 200px,100% 400px;
+    background-position: center 50px, center top;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    margin-top: 0px;
+}
+.banner-image img{
+    max-width: 80px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.badge{
+    position: relative;
+    left: 90px;
+    top: 65px;
+}
 
 /* about section responsive */
 .about-info{
@@ -423,7 +446,7 @@ footer #h-gradient{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(0, 0fr);
     gap: 20px;
-    padding: 20px;
+    padding: 30px;
     padding-bottom: 50px;
 }
 .why-card{
@@ -469,10 +492,12 @@ footer #h-gradient{
     max-width: 255px;
     /* max-height: 65px; */
     grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    /* margin-bottom: 0px;
+    padding-bottom: 0; */
 }
 #apple-podcast{
     grid-column: span 1;
-    gap: 16px;
 }
 .icon-container{
     padding: 0px;
@@ -480,15 +505,25 @@ footer #h-gradient{
 }
 .copy-right{
     /* text-align: center; */
-    margin-top: 25px;
+    margin-top: 50px;
     padding-bottom: 40px;
+}
+#footer h1{
+    font-size: 4rem;
+    font-weight: 800;
+     padding-top: 40px;
+    margin-bottom: 22px;
+}
+footer #h-gradient{
+    font-size: 4rem;
+    font-weight: 800;
 }
 footer{
     /* max-height: 412px; */
-   background: url("../assets/footer-bg.png"), #412567;
-   background-size: cover;
+   background: url("../assets/footer-bg.png"), #1A0B2E;
+   background-position: center bottom;
    background-repeat: no-repeat;
-   background-position: center;
+   background-size: 100% 400px;
 }
 
 }
