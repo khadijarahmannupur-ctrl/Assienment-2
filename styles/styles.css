@@ -187,6 +187,55 @@ main{
     color: #00FF88;
     margin-bottom: 16px;
 }
+/* why section styels */
+#why{
+    background-color: rgba(35, 14, 61, 1);
+}
+#why h2{
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+.why-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    padding-bottom: 120px;
+    /* justify-items: center; */
+    /* align-items: center; */
+}
+#Premium{
+    /* max-width: 380px;
+    max-height: 450px; */
+    grid-row: span 2;
+    padding: 40px;
+}
+#Mobile, #Global, #Exclusive{
+    /* max-width: 790px;
+    max-height: 225px; */
+    grid-column: span 2;
+    padding: 40px;
+}
+#Rich{
+    grid-column: span 1;
+    padding: 40px;
+}
+.why-card{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    /* padding: 40px; */
+}
+.why-card h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 16px 0;
+}
+.why-card p{
+    line-height: 24px;
+}
 
 /* footer section styles */
 footer{
