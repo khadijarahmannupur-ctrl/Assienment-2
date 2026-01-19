@@ -280,6 +280,46 @@ main{
     padding-top: 10px;
 }
 
+/* meet section styles */
+#meet{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+#meet h2{
+    margin-bottom: 40px;
+}
+.meet-container{
+    padding-bottom: 120px;
+}
+.meet-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    border-radius: 40px;
+}
+.meet-content h3{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+.meet-content p{
+    margin-bottom: 16px;
+}
+.meet-content img{
+
+    border: 2px solid #412567;
+    border-radius: 45%;
+    padding: 10px;
+}
+
+
+
+
 /* footer section styles */
 footer{
     /* max-height: 412px; */
