@@ -153,6 +153,10 @@ nav{
     padding: 12px 20px;
     margin-left: 10px;
 }
+@keyframes green-btn{
+      from {background-color: #00FF88; box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);}
+     to {background-color: #ffffff; box-shadow: 0px 3px 27px 0px rgba(250, 252, 251, 0.815);}
+}
 .badge{
     font-size: 1.12rem;
     font-weight: 600;
@@ -165,6 +169,7 @@ nav{
     position: relative;
     left: 120px;
     top: 130px;
+    animation: green-btn 1s ease-in-out 1s infinite;
 }
 
 /* about section styles */
@@ -214,29 +219,40 @@ main{
 }
 .why-container{
     max-width: 1200px;
+    /* max-height: 900px; */
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 120px;
     /* justify-items: center; */
     /* align-items: center; */
 }
 #Premium{
-    /* max-width: 380px;
-    max-height: 450px; */
+    max-width: 380px;
+    /* max-height: auto; */
     grid-row: span 2;
 }
-#Mobile, #Global, #Exclusive{
-    /* max-width: 790px;
-    max-height: 225px; */
+#Mobile, #Global{
+    max-width: 790px;
+    /* max-height: auto; */
+    grid-column: span 2;
+}
+#Exclusive{
+     max-width: 790px;
+    /* max-height: auto; */
     grid-column: span 2;
 }
 #Rich{
     grid-column: span 1;
+     max-width: 380px;
+    /* max-height: auto; */
+
 }
 .why-card{
+
+    /* height: auto; */
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 40px;
     padding: 40px;
@@ -448,20 +464,25 @@ footer #h-gradient{
     gap: 20px;
     padding: 30px;
     padding-bottom: 50px;
+    align-items: center;
+    justify-items: center;
 }
 .why-card{
     padding: 24px;
 }
 #Premium{
     grid-row: span 1;
+    max-width: 400px;
 }
 #Mobile, #Global, #Exclusive{
     /* max-width: 790px;
     max-height: 225px; */
     grid-column: span 1;
+    max-width: 400px;
 }
 #Rich{
     grid-column: span 1;
+    max-width: 400px;
 }
 
 /* feature responsive */
